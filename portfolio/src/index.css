@@ -1,0 +1,79 @@
+:root {
+  
+  background-color: #242424;
+  font-family: aeronaut;
+
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.white-space{
+  z-index: 10;
+}
+
+.cloud-container{
+  display: flex;
+  flex-direction: column;
+}
+.mountain{
+  
+  max-width: 20vw;
+  max-height: auto;
+  padding-left: 20vw;
+  padding-top: 200px;
+  z-index: 1;
+}
+.clouds{
+  margin-bottom: 0;
+  margin-top: -250px;
+  min-width: 100vw;
+  min-height: auto;
+  z-index: 10;
+}
+
+.name-intro{
+  font-size: 8rem;
+  font-weight: bold;
+  color: #1E1E1E;
+  text-align: center;
+}
+@font-face {
+  font-family: "aeronaut";
+  src: url("./fonts/poiaeronauttrial-regular.otf") format("truetype");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.person-box{
+  display: flex;
+  
+}
+
+.picture-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1px;
+}
+
+.profile-pic {
+  max-width: 10vw;
+  max-height: auto;
+  object-fit: cover;
+  border-radius: 80px;
+  border:7.5px solid rgba(255, 255, 255, 0.87) ;
+  margin: 2.5vh;
+}
